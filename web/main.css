@@ -1,0 +1,69 @@
+
+
+*{
+    font-family: 'Roboto','Franklin Gothic Medium';/* добавляем шрифт -- Franklin Gothic Medium*/
+    box-sizing: border-box;
+    font-weight: 300px;
+}
+
+
+
+body {
+    background: #2466c9;
+    background: -webkit-linear-gradient(to right,#24bec9,#2466c9);/* Делаем градиент*/
+    background:  linear-gradient(45deg, #a8edea, #fed6e3);
+
+    color:azure;/*фон приложения*/
+    padding: 50px;
+
+
+}
+
+
+#location {
+    display: block;
+    border: none;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 10px ;
+    padding: 20px;
+    color:white
+    outline: none;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 300;
+} 
+
+
+#location::placeholder {
+    color:rgba(255, 255, 255, .5);
+
+}
+
+
+
+#show {
+    display: block;
+    border: none;
+    margin-top: 15px;/*Отступы для поля ввода города и страны, со всех сторон*/
+
+    background: #2466c9;
+    background: -webkit-linear-gradient(to right,#24bec9,#2466c9);/* Делаем градиент*/
+    background:  linear-gradient(45deg, #a8edea, #fed6e3);
+
+    background: rgba(255, 255, 255, .5);
+    border-radius: 10px ;
+    padding: 20px;
+    color:white
+    outline: none;
+    width: 100%;
+    font-size: 20px;/* Размеры шрифта*/
+    font-weight: 300;/*Устанавливает жирность шрифта*/
+    text-transform: uppercase;
+    font-weight; bold;
+    cursor: pointer;
+} 
+
+#show:hover {
+    opacity: .9;
+
+}
