@@ -8,7 +8,7 @@ def get_weather(place):
     w = observation.weather
 
     temp=w.temperature('celsius')['temp']
-    return 'В городе' + place + 'сейчас' + str(temp) + 'градусов!'
+    return ' В городе ' + place + ' сейчас ' + str(temp) + ' градусов! '
 eel.init('web')
 
 eel.start('main.html', size=(700,700))
